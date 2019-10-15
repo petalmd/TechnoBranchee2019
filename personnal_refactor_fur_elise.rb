@@ -29,7 +29,6 @@ def part_one
   end
   
   croche_liste([:E5, :A4, :D5, :C5])
-  
   noire_pointe :A4
 end
 
@@ -44,9 +43,7 @@ def monte_two
 end
 
 def monte_three
-  croche :E
-  croche :C5
-  croche :B
+  croche_liste([:E, :C5, :B])
   noire_pointe :A
 end
 
